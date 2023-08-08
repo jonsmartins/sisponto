@@ -1,0 +1,44 @@
+{
+  "funcionarios": [
+    {
+      "id": 1,
+      "nome": "Leandro Amaro",
+      "cpf": "123.456.789-00",
+      "cargo": "ADM",
+      "setor": "DP",
+      "entrada": "08:30",
+      "intervalo1": "13:00",
+      "intervalo2": "14:00",
+      "saida": "18:00"
+    },
+    {
+      "nome": "Jonas da Silva Martins",
+      "cpf": "150.044.137-62",
+      "cargo": "Dev",
+      "setor": "TI",
+      "entrada": "08:30",
+      "intervalo1": "13:00",
+      "intervalo2": "14:00",
+      "saida": "18:00",
+      "id": 2
+    },
+    {
+      "nome": "Edmilson Ludovico",
+      "cpf": "123.456.789-00",
+      "cargo": "Dev Senior",
+      "setor": "TI",
+      "entrada": "08:30",
+      "intervalo1": "13:00",
+      "intervalo2": "14:00",
+      "saida": "18:00",
+      "id": 3
+    }
+  ],
+  "registros": [
+    {
+      "data": "8/8/2023",
+      "hora": "15:13",
+      "id": "51"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+.container{
+    margin: 30px;
+}
+
+.container h1 {
+    margin-bottom: 50px;
+    color: #2e15b8;
+    border-left: 5px solid #110327;
+    padding-left: 7px;
+ }
+
+.container p {
+    font-size: 20px;
+    box-sizing: border-box;
+    color: #eee;
+    border-bottom: 1px #2023dd solid;
+    width: 60vw;
+    margin-top: 30px;
+}
+
+.container p span {
+    background-color: #2023dd;
+    padding: 0 10px;
+}
+
+.container input {
+    margin-right: 15px;
+    width: 28vw;
+}
+
+.container .horarios input{
+    text-align: center;
+    max-width: 85px;
+    display: inline-flex;
+}
+
+.container .horarios span{
+    margin-right: 5px;
+}
+
+.container .btn button{
+    display:inline-flex;
+    width: 25vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background-color: #080011;
+    color: #fff;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.65s;
+}
+
+.container .btn #cadastrar:hover {
+    background-color: #0f642f;
+}
+.container .btn #reset:hover {
+    background-color: #640f0f;
+}
+

@@ -1,0 +1,38 @@
+.Menu{
+    display: flex;
+    flex-basis: 200px;
+    background-color: #2023dd;
+}
+
+.Menu nav{
+    flex: 1;
+}
+
+.Menu ul{
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+}
+
+.Menu li{
+    display: flex;
+}
+
+.Menu li a{
+    flex: 1;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.Menu li:nth-child(n+1):hover{
+    background: #00000030;
+}
+
+.Menu li:first-child:hover{
+    background: #640f0f;
+    border-radius: 50%;
+}
